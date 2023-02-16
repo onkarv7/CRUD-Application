@@ -1,0 +1,146 @@
+/* Home */
+
+.cards {
+    background: #FFFFFF;
+    border: 1px solid #D7DFE9;
+    border-radius: 4px;
+    Height: 192px;
+    border-radius: 4px;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.img {
+    background: #FFFFFF;
+    border: 2px solid #D7DFE9;
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.title {
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171F46;
+    width: 170px;
+    height: 24px;
+}
+
+.sub-title {
+    font-family: 'HK Grotesk', sans-serif;
+    color: #7E858E;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.link {
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 320px;
+    height: 24px;
+    color: #0B69FF;
+}
+
+.description {
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7E858E;
+    width: 320px;
+    height: 24px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.resources_button,
+.users_button,
+.requests_button {
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    width: 200px;
+    height: 40px;
+    border: 1px #D7DFE9;
+    margin-left: 1px;
+    text-align: center;
+    background-color: #D7DFE9;
+}
+
+.active {
+    background-color: #0B69FF;
+    color: #FFFFFF;
+    width: 200px;
+    height: 40px;
+}
+
+.search {
+    margin-top: 32px;
+    margin-left: 130px;
+    height: 40px;
+    width: 648px;
+    border-radius: 3px;
+    font-family: 'HK Grotesk', sans-serif;
+    background: #FFFFFF;
+    border: 1px solid #D7DFE9;
+    border-radius: 3px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    width: 50px;
+    margin-left: 2px;
+    z-index: 1;
+}
+
+.curent button {
+    background-color: #0B69FF;
+}
+
+@media only screen and (max-width: 420px) {
+    .search {
+        margin-left: 4px;
+        height: 40px;
+        width: 308px;
+    }
+
+    .description {
+        font-size: 10px;
+        line-height: 14px;
+        width: 220px;
+        height: 74px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .search {
+        margin-left: 30px;
+        height: 50px;
+        width: 608px;
+    }
+
+    .description {
+        font-size: 10px;
+        line-height: 14px;
+        width: 220px;
+        height: 74px;
+    }
+}

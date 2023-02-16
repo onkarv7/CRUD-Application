@@ -1,0 +1,148 @@
+/* Form */
+
+.form_image {
+    height: "437.47px";
+    width: 417px;
+}
+
+.container_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.form_image2 {
+    height: 1037px;
+    width: 664px;
+}
+
+.form_title {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 32px;
+    text-align: center;
+    width: 178px;
+    height: 40px;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #171F46;
+}
+
+.form_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    color: #D7DFE9;
+    width: 93px;
+    height: 40px;
+    background-color: #0B69FF;
+    border-radius: 4px;
+    border: none;
+    margin-left: 110px;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.user {
+    margin-top: 24px;
+    margin-left: 52px;
+    display: flex;
+    cursor: pointer;
+}
+
+.user_title {
+    width: 31px;
+    height: 16px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7E858E;
+
+}
+
+.user_link {
+    width: 10px;
+    height: 14px;
+    margin-right: 9px;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .container_form {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 300px;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .form_image2 {
+        height: 637px;
+        width: 400px;
+        object-fit: cover;
+        margin-top: 24px;
+    }
+
+    .user {
+        margin-top: 1px;
+        margin-left: 10px;
+    }
+
+    .form_title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container_form {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form {
+        width: 300px;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .form_image2 {
+
+        height: 837px;
+        width: 400px;
+        object-fit: cover;
+        margin-top: 24px;
+    }
+
+    .user {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .form_title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
